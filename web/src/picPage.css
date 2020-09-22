@@ -1,0 +1,69 @@
+
+.backPic{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding:0px;
+    background: rgb(228, 228, 228);
+}
+p{
+    margin:0px;
+}
+.topDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.addButtDiv{
+    width: 100px;
+    text-align: center;
+}
+.addButt{
+    width: 60%;
+    margin-left: 20%;
+    margin-right:20%;
+    transition: all 0.7s;
+}
+.addButt:hover{
+    opacity: 0.5;
+}
+.leftCornDiv{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.picRow{
+    margin-left:5%;
+    margin-right: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.backButtonDiv{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    transition: all 0.7s;
+}
+.backButtonDiv:hover{
+    background: black;
+    color: white;
+}
+.column{
+    width: 21%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.imgCol{
+    width: 100%;
+}
+.imgCol:hover{
+    opacity: 0.7;
+}
+.imgDiv{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
