@@ -9,6 +9,7 @@
     "css-what": "^5.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^7.8.8",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^1.1.5"
   },
