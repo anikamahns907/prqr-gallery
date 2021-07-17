@@ -28,7 +28,7 @@ class App extends React.Component {
         - Basically what's happening here is that the Route component redirects a path to the desired page (component)
         - click san juan. -> LInk tag redirects to "/pictures" and the 
           Route tag takes the user to the path of "/pictures" which is the Pictures component.
-          - same goes for the home. component - 
+          same goes for home. componnent
       */
       <Router>
         <div>
