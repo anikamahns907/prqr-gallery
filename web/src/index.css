@@ -1,26 +1,182 @@
-/* html, body{
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0px;
-  padding:0px;
+  padding: 0px;
   background: rgb(228, 228, 228);
+  font-family: "Roboto", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*NAV BAR*/
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: rgb(78, 145, 161);
+  height: 55px;
+}
+.navLogoDiv {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 30px;
+}
+.navLogo {
+  width: 100%;
+}
+.navLinksDiv {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navLinkText {
+  padding: 0px 15px;
+  color: white;
+  font-weight: bold;
+}
+/*GENERAL STUFF*/
+a {
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form {
+  height: 30px;
+}
+h1,
+p,
+h2,
+h6 {
+  margin: 0px;
+}
+.mainDiv {
+  padding-top: 100px;
+  height: 100%;
+}
+.mainMarginDiv {
+  width: 80%;
+  margin: 0px 10%;
+}
+.generalRow {
+  display: flex;
+  flex-direction: row;
+}
+.distributeRowBetween {
+  display: flex;
+  justify-content: space-between;
+}
+.centerVertical {
+  display: flex;
+  align-items: center;
+}
+button {
+  padding: 17px 55px;
+  border-radius: 10px;
+  border: 2px solid rgb(78, 145, 161);
+  background: transparent;
+  transition: all 0.6s;
+}
+button:hover {
+  background: rgb(78, 145, 161);
+  color: white;
+}
+
+.input {
+  padding: 5px 5px;
+  border-radius: 10px;
+  border: 2px solid rgb(78, 145, 161);
+  background: transparent;
+  transition: all 0.6s;
+}
+/*LINKS*/
+.hoverUnderline {
+  border-bottom: none;
+  transition: all 0.7s;
+}
+.hoverUnderline:hover {
+  border-bottom: 1px solid black;
+}
+
+.hoverGeneral {
+  opacity: 1;
+  transition: all 0.7s;
+}
+
+.hoverGeneral:hover {
+  opacity: 0.4;
+}
+
+/*PICTURES PAGE*/
+.coordinateDiv {
+}
+.uploadButtonDiv {
+  right: 0px;
+}
+.descriptionDiv {
+  width: 30%;
+}
+
+.mainPictures {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.mainPic {
+  width: 100%;
+  flex-direction: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.imageDiv {
+  width: 29%;
+  margin: 0px 2%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.img {
+  width: 100%;
+}
+
+/*POPUP*/
+.popupMain {
+  width: 100%;
+  height: 100%;
+  z-index: 15;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.226);
+  margin-top: -100px;
+}
+
+.popupWhiteSquare {
+  width: 40%;
+  height: 40%;
+  background-color: white;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0px 30%;
+  align-content: center;
+}
+
+.xDiv {
+  width: 100%;
+  text-align: right;
+  padding-top: 10px;
+}
+.xText {
+  padding: 10px 10px;
+  cursor: pointer;
+  color: rgb(24, 29, 31);
+  font-weight: bold;
+}
+
+.popupContent {
+  text-align: center;
 }
