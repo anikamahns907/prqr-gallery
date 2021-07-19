@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Pictures from "./components/Pictures";
-import Home from "./components/Home";
+import Pictures from "./Components/Pictures";
+import Home from "./Components/Home";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import navLogo from "./images/add.png";
 
