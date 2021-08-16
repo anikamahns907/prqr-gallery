@@ -128,6 +128,11 @@ class Pictures extends React.Component {
               return (
                 <div className="imageDiv" key={i}>
                   <div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                     <img
                       src={picture}
                       alt={picture

@@ -127,6 +127,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  bottom: -200px;
 }
 .mainPic {
   width: 100%;
